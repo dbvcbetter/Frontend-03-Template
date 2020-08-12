@@ -1,0 +1,13 @@
+{
+  "name": "frontend-03-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dbvcbetter/Frontend-03-Template.git",
+  "author": "dbvcbetter <dbvc@live.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.3.0",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  }
+}
