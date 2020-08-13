@@ -5,6 +5,9 @@
   "repository": "https://github.com/dbvcbetter/Frontend-03-Template.git",
   "author": "dbvcbetter <dbvc@live.cn>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
   "devDependencies": {
     "jest": "^26.3.0",
     "ts-jest": "^26.2.0",
