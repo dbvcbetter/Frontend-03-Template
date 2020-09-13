@@ -16,7 +16,8 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {
       'Content-Type': 'text/plain',
     })
-    res.end('Hello world')
+    // res.end('Hello world')
+    res.end('<html><head><style>.app { color: blue; }</style></head><body><p class="app">wocao</p><img src="https://r.kezaihui.com" /></body></html>')
   })
 })
 
