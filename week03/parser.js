@@ -1,5 +1,7 @@
 const css = require('css')
 
+const layout = require('../week04/layout')
+
 const EOF = Symbol('EOF')
 
 let currentToken = null
@@ -161,6 +163,7 @@ function emit(token) {
       if (top.tagName === 'style') {
         addCSSRules(top.children[0].content)
       }
+      layout(top)
       stack.pop()
     }
 
